@@ -4,7 +4,7 @@
     <logicalFolder name="include" displayName="include" projectFiles="true">
       <itemPath>include/doctest.h</itemPath>
     </logicalFolder>
-    <df root="src" name="1">
+    <df root="src" name="0">
       <in>kata.cpp</in>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -15,6 +15,7 @@
     </logicalFolder>
     <itemPath>CMakeLists.txt</itemPath>
     <itemPath>build.sh</itemPath>
+    <itemPath>new.sh</itemPath>
   </logicalFolder>
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
   <sourceRootList>
@@ -52,6 +53,8 @@
           <preBuildFirst>true</preBuildFirst>
         </preBuild>
       </makefileType>
+      <item path="new.sh" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="src/kata.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
         </ccTool>
