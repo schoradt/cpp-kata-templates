@@ -11,6 +11,7 @@ cd $FOLDER
 tar -xf /tmp/kata-template.tar
 
 rm -f new.sh
+mv README_template.md README.md
 
 git init
 git add .
